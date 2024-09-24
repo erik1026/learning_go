@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := build
 
-.PHONY:fmt vet build cloan
+.PHONY:fmt vet build clean
 fmt:
 	go fmt ./...
 
